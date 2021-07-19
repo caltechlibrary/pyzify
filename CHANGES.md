@@ -1,9 +1,6 @@
-Change log for REPOSITORY
-=========================
+# Change log for Pyzify
 
-Version 0.0.0
--------------
 
-* Write about a change here
-* Write about another change here
-* Write about a 3rd change
+## Version 0.0.0
+
+Repository created on GitHub 2021-07-19.
