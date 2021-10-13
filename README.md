@@ -3,8 +3,7 @@
 A small program to create self-contained executable Python ["zipapps"](https://docs.python.org/3/library/zipapp.html) using [shiv](https://github.com/linkedin/shiv).
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)](https://choosealicense.com/licenses/bsd-3-clause)
-[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/template.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/template/releases)
-[![DOI](https://data.caltech.edu/badge/201106666.svg)](https://data.caltech.edu/badge/latestdoi/201106666)
+[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/pyzify.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/pyzify/releases)
 
 
 ## Table of contents
@@ -25,7 +24,7 @@ A small program to create self-contained executable Python ["zipapps"](https://d
 Pyzify is a small program that does two things:
 
 1. Creates a self-contained and executable Python [zipapp](https://docs.python.org/3/library/zipapp.html) from your Python source code. The resulting binary contains a bootstrap component and a [pyz](https://www.python.org/dev/peps/pep-0441/) bundle of your application files with all the Python dependencies included. To run, the application **only needs a Python interpreter of the right version on users' computers** &ndash; users don't need to install other Python packages themselves because the binary contains everything it needs. It's almost like a regular compiled program!
-2. Bundles the executable application into a zip archive suitable for distribution. The zip archive contains a README file with information about the application; the README is constructed using a template that you supply, letting you customize its contents.
+2. Bundles the executable application into a zip archive suitable for distribution. The zip archive contains a README file with information about the application; the README is constructed using a pyzify that you supply, letting you customize its contents.
 
 Pyzify is uses [shiv](https://github.com/linkedin/shiv) to do the real work. It adds some bootstrap code to test the version of Python at run-time and additional steps to create the zip archive for distribution.
 
@@ -68,6 +67,6 @@ The [vector artwork](https://thenounproject.com/search/?q=package&i=3467951) use
 <div align="center">
   <br>
   <a href="https://www.caltech.edu">
-    <img width="100" height="100" src="https://raw.githubusercontent.com/caltechlibrary/template/main/.graphics/caltech-round.png">
+    <img width="100" height="100" src="https://raw.githubusercontent.com/caltechlibrary/pyzify/main/.graphics/caltech-round.png">
   </a>
 </div>
