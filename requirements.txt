@@ -1,0 +1,7 @@
+# =============================================================================
+# @file    requirements.txt
+# @brief   Python dependencies for pyzify
+# @created 2021-10-13
+# @license Please see the file named LICENSE in the project directory
+# @website https://github.com/caltechlibrary/pyzify
+# =============================================================================
