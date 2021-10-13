@@ -23,8 +23,8 @@ A small program to create self-contained executable Python ["zipapps"](https://d
 
 Pyzify is a small program that does two things:
 
-1. Creates a self-contained and executable Python [zipapp](https://docs.python.org/3/library/zipapp.html) from your Python source code. The resulting binary contains a bootstrap component and a [pyz](https://www.python.org/dev/peps/pep-0441/) bundle of your application files with all the Python dependencies included. To run, the application **only needs a Python interpreter of the right version on users' computers** &ndash; users don't need to install other Python packages themselves because the binary contains everything it needs. It's almost like a regular compiled program!
-2. Bundles the executable application into a zip archive suitable for distribution. The zip archive contains a README file with information about the application; the README is constructed using a pyzify that you supply, letting you customize its contents.
+1. Creates a self-contained and executable Python [zipapp](https://docs.python.org/3/library/zipapp.html) from your Python source code. The resulting binary contains a bootstrap component and a [pyz](https://www.python.org/dev/peps/pep-0441/) bundle of your application files with all the Python dependencies included. To run, the application **only needs a Python interpreter of the right version on users' computers** &ndash; users don't need to install other Python packages. It's almost like a regular compiled program!
+2. Bundles the executable application into a zip archive suitable for distribution. The zip archive contains a README file with information about the application; the README is constructed using a template that you supply, letting you customize its contents.
 
 Pyzify is uses [shiv](https://github.com/linkedin/shiv) to do the real work. It adds some bootstrap code to test the version of Python at run-time and additional steps to create the zip archive for distribution.
 
@@ -33,6 +33,10 @@ Pyzify is uses [shiv](https://github.com/linkedin/shiv) to do the real work. It 
 
 
 ## Usage
+
+
+
+
 
 
 ## Known issues and limitations
